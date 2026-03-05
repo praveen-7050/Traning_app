@@ -1,0 +1,94 @@
+# ============================================================================
+# TRAINING MANAGEMENT SYSTEM - BACKEND REQUIREMENTS
+# ============================================================================
+# Installation: pip install -r requirements.txt
+# Update:       pip freeze > requirements.txt
+# List:         pip list
+# Report:       pip show <package-name>
+# ============================================================================
+
+# Django Framework - Web framework for building REST APIs
+# Docs: https://docs.djangoproject.com/en/4.2/
+# Install: pip install django==4.2
+django==4.2
+
+# Django REST Framework - Toolkit for building REST APIs with Django
+# Docs: https://www.django-rest-framework.org/
+# Install: pip install djangorestframework==3.14.0
+djangorestframework==3.14.0
+
+# Django CORS Headers - Handle CORS headers for cross-origin requests
+# Docs: https://github.com/adamchainz/django-cors-headers
+# Install: pip install django-cors-headers==4.3.1
+django-cors-headers==4.3.1
+
+# MySQL Client - Python interface to MySQL database
+# Docs: https://mysqlclient.readthedocs.io/
+# Install: pip install mysqlclient==2.2.1
+# Note: Requires MySQL development files installed on system
+mysqlclient==2.2.1
+
+# ============================================================================
+# IMPORTANT SETUP COMMANDS
+# ============================================================================
+# 1. CREATE VIRTUAL ENVIRONMENT:
+#    python -m venv venv
+#    venv\Scripts\activate          # Windows
+#    source venv/bin/activate       # macOS/Linux
+#
+# 2. INSTALL ALL DEPENDENCIES:
+#    pip install -r requirements.txt
+#
+# 3. INITIALIZE DATABASE:
+#    python manage.py makemigrations
+#    python manage.py migrate
+#
+# 4. CREATE ADMIN USER:
+#    python manage.py createsuperuser
+#
+# 5. START DEVELOPMENT SERVER:
+#    python manage.py runserver
+#
+# 6. ACCESS ADMIN PANEL:
+#    http://localhost:8000/admin/
+#
+# ============================================================================
+# USEFUL PACKAGE MANAGEMENT COMMANDS
+# ============================================================================
+# List all installed packages:
+#    pip list
+#
+# Check package version:
+#    pip show django
+#
+# Upgrade a package:
+#    pip install --upgrade django
+#
+# Install a new package and save to requirements:
+#    pip install <package-name>
+#    pip freeze > requirements.txt
+#
+# Remove a package:
+#    pip uninstall <package-name>
+#
+# ============================================================================
+# ADDITIONAL OPTIONAL PACKAGES (uncomment to use)
+# ============================================================================
+# For environment variables:
+# python-dotenv==1.0.0
+#
+# For async tasks:
+# celery==5.3.0
+#
+# For email sending enhancements:
+# django-anymail==10.2
+#
+# For testing:
+# pytest==7.4.0
+# pytest-django==4.5.0
+#
+# For code quality:
+# black==23.7.0
+# flake8==6.0.0
+#
+# ============================================================================
